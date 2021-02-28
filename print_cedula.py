@@ -13,7 +13,7 @@ ap_inic = nombre.primer_apellido + ' ' + nombre.segundo_apellido
 nom_inic = nombre.primer_nombre + ' ' + nombre.segundo_nombre
 nc_inic = nombre.numero_de_cedula
 
-font = ImageFont.truetype("arial.ttf", 30)
+font = ImageFont.truetype("fonts/arial.ttf", 30)
 
 ap_fin = ImageDraw.Draw(ced)
 ap_fin.text((278, 210), ap_inic, font=font, fill='black')
