@@ -6,7 +6,7 @@ def foto_para_cedula():
     EN: A new ID picture is generated. from .png files
     ES: Se crea una foto para la cédula, usando .png
     '''
-    base = Image.open('profiles/base.png').convert('RGBA')
+    base = Image.open('profiles/base-01.png').convert('RGBA')
     camisa = Image.open(random.choice(sorted(glob.glob('profiles/camisas/*')))).convert('RGBA')
     gorra = Image.open(random.choice(sorted(glob.glob('profiles/gorras/*')))).convert('RGBA')
 
